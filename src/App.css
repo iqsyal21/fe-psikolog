@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+.bgLogin {
+  background-image: url("./assets/images/bglogin.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.flip-card-login {
+  transition: transform 0.5s; /* Menggunakan CSS Transition */
+  transform: scaleX(-1) rotateY(180deg);
+}
+
+.flip-card-register {
+  transition: transform 0.5s; /* Menggunakan CSS Transition */
+  transform: scaleX(1) rotateY(0deg);
+}
