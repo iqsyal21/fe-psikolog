@@ -1,5 +1,12 @@
-# React + Vite
-
+# Running
+- npm install
+- npm run dev
+```
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+---
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
